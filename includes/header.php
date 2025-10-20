@@ -21,7 +21,7 @@
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default">get a quote</a>
+                            <a href="contact.php" class="btn-default">get a quote</a>
                         </div>
                         <!-- Header Btn End -->                 
 					</div>

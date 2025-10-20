@@ -83,7 +83,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index.php">
 						<img src="images/logo.svg" alt="Logo">
 					</a>
 					<!-- Logo End -->
@@ -92,16 +92,16 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                          
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>                          
                             </ul>
                         </div>
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default">get a quote</a>
+                            <a href="contact.php" class="btn-default">get a quote</a>
                         </div>
                         <!-- Header Btn End -->                 
 					</div>
@@ -401,11 +401,11 @@
                     <div class="footer-links">
                         <h3>services</h3>
                         <ul>
-                            <li><a href="about.html">About company</a></li>
-                            <li><a href="services.html">Our services</a></li>
-                            <li><a href="projects.html">Our projects</a></li>
-                            <li><a href="blog.html">Our blogs</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="about.php">About company</a></li>
+                            <li><a href="services.php">Our services</a></li>
+                            <!-- <li><a href="projects.php">Our projects</a></li>
+                            <li><a href="blog.php">Our blogs</a></li> -->
+                            <li><a href="contact.php">Contact us</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -416,11 +416,11 @@
                     <div class="footer-links">
                         <h3>Links</h3>
                         <ul>
-                            <li><a href="projects-single.html">Home Pest Control</a></li>
-                            <li><a href="projects-single.html">Commercial Pest</a></li>
-                            <li><a href="projects-single.html">Termite & Rodent</a></li>
-                            <li><a href="projects-single.html">Eco-Friendly Pest</a></li>
-                            <li><a href="projects-single.html">Wildlife Removal</a></li>
+                            <li><a href="projects-single.php">Home Pest Control</a></li>
+                            <li><a href="projects-single.php">Commercial Pest</a></li>
+                            <li><a href="projects-single.php">Termite & Rodent</a></li>
+                            <li><a href="projects-single.php">Eco-Friendly Pest</a></li>
+                            <li><a href="projects-single.php">Wildlife Removal</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->

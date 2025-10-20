@@ -297,7 +297,7 @@ img {
                         
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">book a service</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">book a service</a>
                             <a href="services.php" class="hero-service-btn">View All Services</a>                            
                         </div>
                         <!-- Hero Button End -->
@@ -333,7 +333,7 @@ img {
                             </div>
                             <div class="best-service-item-content">
                                 <h3>Comprehensive Coverage</h3>
-                                <a href="contact.html" class="readmore-btn">read more</a>
+                                <a href="contact.php" class="readmore-btn">read more</a>
                             </div>
                         </div>
                         <!-- Best Service Item End -->
@@ -345,7 +345,7 @@ img {
                             </div>
                             <div class="best-service-item-content">
                                 <h3>Fast Response Times</h3>
-                                <a href="contact.html" class="readmore-btn">read more</a>
+                                <a href="contact.phpl" class="readmore-btn">read more</a>
                             </div>
                         </div>
                         <!-- Best Service Item End -->
@@ -357,7 +357,7 @@ img {
                             </div>
                             <div class="best-service-item-content">
                                 <h3>Commercial Services</h3>
-                                <a href="contact.html" class="readmore-btn">read more</a>
+                                <a href="contact.php" class="readmore-btn">read more</a>
                             </div>
                         </div>
                         <!-- Best Service Item End -->
@@ -369,7 +369,7 @@ img {
                             </div>
                             <div class="best-service-item-content">
                                 <h3>24/7 Emergency Services</h3>
-                                <a href="contact.html" class="readmore-btn">read more</a>
+                                <a href="contact.php" class="readmore-btn">read more</a>
                             </div>
                         </div>
                         <!-- Best Service Item End -->
@@ -520,7 +520,7 @@ img {
                                     <div class="service-item">
                                         <!-- Service Image Start -->
                                         <div class="service-image">
-                                            <a href="service-single.html" data-cursor-text="View">
+                                            <a href="service-single.php" data-cursor-text="View">
                                                 <figure class="image-anime">
                                                     <img src="images/service-image-1.jpg" alt="">
                                                 </figure>
@@ -534,11 +534,11 @@ img {
                                                 <img src="images/icon-service-item-1.svg" alt="">
                                             </div>        
                                             <div class="service-content">
-                                                <h3><a href="service-single.html">Residential Pest Control</a></h3>
+                                                <h3><a href="service-single.php">Residential Pest Control</a></h3>
                                                 <p>Tailored solutions to protect your home from common pests.</p>
                                             </div>
                                             <div class="service-btn">
-                                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                                <a href="service-single.php" class="readmore-btn">read More</a>
                                             </div>                      
                                         </div>
                                         <!-- Service Body End -->
@@ -553,7 +553,7 @@ img {
                                     <div class="service-item">
                                         <!-- Service Image Start -->
                                         <div class="service-image">
-                                            <a href="service-single.html" data-cursor-text="View">
+                                            <a href="service-single.php" data-cursor-text="View">
                                                 <figure class="image-anime">
                                                     <img src="images/service-image-1.jpg" alt="">
                                                 </figure>
@@ -567,11 +567,11 @@ img {
                                                 <img src="images/icon-service-item-1.svg" alt="">
                                             </div>        
                                             <div class="service-content">
-                                                <h3><a href="service-single.html">Residential Pest Control</a></h3>
+                                                <h3><a href="service-single.php">Residential Pest Control</a></h3>
                                                 <p>Tailored solutions to protect your home from common pests.</p>
                                             </div>
                                             <div class="service-btn">
-                                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                                <a href="service-single.php" class="readmore-btn">read More</a>
                                             </div>                      
                                         </div>
                                         <!-- Service Body End -->
@@ -586,7 +586,7 @@ img {
                                     <div class="service-item">
                                         <!-- Service Image Start -->
                                         <div class="service-image">
-                                            <a href="service-single.html" data-cursor-text="View">
+                                            <a href="service-single.php" data-cursor-text="View">
                                                 <figure class="image-anime">
                                                     <img src="images/service-image-2.jpg" alt="">
                                                 </figure>
@@ -600,11 +600,11 @@ img {
                                                 <img src="images/icon-service-item-2.svg" alt="">
                                             </div>        
                                             <div class="service-content">
-                                                <h3><a href="service-single.html">Commercial Pest Solutions</a></h3>
+                                                <h3><a href="service-single.php">Commercial Pest Solutions</a></h3>
                                                 <p>Tailored solutions to protect your home from common pests.</p>
                                             </div>
                                             <div class="service-btn">
-                                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                                <a href="service-single.php" class="readmore-btn">read More</a>
                                             </div>                       
                                         </div>
                                         <!-- Service Body End -->
@@ -619,7 +619,7 @@ img {
                                     <div class="service-item">
                                         <!-- Service Image Start -->
                                         <div class="service-image">
-                                            <a href="service-single.html" data-cursor-text="View">
+                                            <a href="service-single.php" data-cursor-text="View">
                                                 <figure class="image-anime">
                                                     <img src="images/service-image-4.jpg" alt="">
                                                 </figure>
@@ -633,11 +633,11 @@ img {
                                                 <img src="images/icon-service-item-4.svg" alt="">
                                             </div>        
                                             <div class="service-content">
-                                                <h3><a href="service-single.html">Outdoor Pest Control</a></h3>
+                                                <h3><a href="service-single.php">Outdoor Pest Control</a></h3>
                                                 <p>Tailored solutions to protect your home from common pests.</p>
                                             </div>
                                             <div class="service-btn">
-                                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                                <a href="service-single.php" class="readmore-btn">read More</a>
                                             </div>                      
                                         </div>
                                     </div>
@@ -651,7 +651,7 @@ img {
                 <div class="col-lg-12">
                     <!-- Section Footer Text Start -->
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.2s">
-                        <p>Ready for a Pest-Free Home? <a href="contact.html">Reach Out to Us Today!</a></p>
+                        <p>Ready for a Pest-Free Home? <a href="contact.php">Reach Out to Us Today!</a></p>
                     </div>
                     <!-- Section Footer Text End -->
                 </div>
@@ -751,7 +751,7 @@ img {
                 <div class="col-lg-12">
                     <!-- Section Footer Text Start -->
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.8s">
-                        <p><span>Free</span>Let's create a pest-free environment - <a href="contact.html">Contact us today!</a></p>
+                        <p><span>Free</span>Let's create a pest-free environment - <a href="contact.php">Contact us today!</a></p>
                     </div>
                     <!-- Section Footer Text End -->
                 </div>
@@ -937,7 +937,7 @@ img {
                         
                         <!-- Cta Button Start -->
                         <div class="cta-btn wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="contact.html" class="btn-default btn-highlighted">Call Now</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">Call Now</a>
                         </div>
                         <!-- Cta Button End -->
                     </div>

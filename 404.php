@@ -80,7 +80,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index.php">
 						<img src="images/logo.svg" alt="Logo">
 					</a>
 					<!-- Logo End -->
@@ -89,39 +89,16 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item submenu"><a class="nav-link" href="index.html">Home</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="index-2.html">Home - Main</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
-                                    </ul>
-                                </li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="project-single.html">Project Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                          
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>                           
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>                          
                             </ul>
                         </div>
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default">get a quote</a>
+                            <a href="contact.php" class="btn-default">get a quote</a>
                         </div>
                         <!-- Header Btn End -->                 
 					</div>
@@ -144,7 +121,7 @@
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Page not found</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">404 error page</li>
                             </ol>
                         </nav>
@@ -170,7 +147,7 @@
                         </div>
                         <div class="error-page-content-body">
                             <p class="wow fadeInUp" data-wow-delay="0.2s">The page you are looking for does not exist.</p>
-                            <a class="btn-default wow fadeInUp" data-wow-delay="0.4s" href="index.html">back to home</a>
+                            <a class="btn-default wow fadeInUp" data-wow-delay="0.4s" href="index.php">back to home</a>
                         </div>
                     </div>
                 </div>
@@ -199,11 +176,11 @@
                     <div class="footer-links">
                         <h3>services</h3>
                         <ul>
-                            <li><a href="about.html">About company</a></li>
-                            <li><a href="services.html">Our services</a></li>
-                            <li><a href="projects.html">Our projects</a></li>
-                            <li><a href="blog.html">Our blogs</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="about.php">About company</a></li>
+                            <li><a href="services.php">Our services</a></li>
+                            <!-- <li><a href="projects.html">Our projects</a></li>
+                            <li><a href="blog.html">Our blogs</a></li> -->
+                            <li><a href="contact.php">Contact us</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -214,11 +191,11 @@
                     <div class="footer-links">
                         <h3>Links</h3>
                         <ul>
-                            <li><a href="projects-single.html">Home Pest Control</a></li>
-                            <li><a href="projects-single.html">Commercial Pest</a></li>
-                            <li><a href="projects-single.html">Termite & Rodent</a></li>
-                            <li><a href="projects-single.html">Eco-Friendly Pest</a></li>
-                            <li><a href="projects-single.html">Wildlife Removal</a></li>
+                            <li><a href="projects-single.php">Home Pest Control</a></li>
+                            <li><a href="projects-single.php">Commercial Pest</a></li>
+                            <li><a href="projects-single.php">Termite & Rodent</a></li>
+                            <li><a href="projects-single.php">Eco-Friendly Pest</a></li>
+                            <li><a href="projects-single.php">Wildlife Removal</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->

@@ -88,7 +88,7 @@
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Our services</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">services</li>
                             </ol>
                         </nav>
@@ -109,7 +109,7 @@
                     <div class="service-item wow fadeInUp">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-1.jpg" alt="">
                                 </figure>
@@ -123,11 +123,11 @@
                                 <img src="images/icon-service-item-1.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">Residential Pest Control</a></h3>
+                                <h3><a href="service-single.php">Residential Pest Control</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                      
                         </div>
                         <!-- Service Body End -->
@@ -140,7 +140,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-2.jpg" alt="">
                                 </figure>
@@ -154,11 +154,11 @@
                                 <img src="images/icon-service-item-2.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">Commercial Pest Solutions</a></h3>
+                                <h3><a href="service-single.php">Commercial Pest Solutions</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                       
                         </div>
                         <!-- Service Body End -->
@@ -171,7 +171,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-3.jpg" alt="">
                                 </figure>
@@ -185,11 +185,11 @@
                                 <img src="images/icon-service-item-3.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">Termite & Rodent Control</a></h3>
+                                <h3><a href="service-single.php">Termite & Rodent Control</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                         
                         </div>
                         <!-- Service Body End -->
@@ -202,7 +202,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-4.jpg" alt="">
                                 </figure>
@@ -216,11 +216,11 @@
                                 <img src="images/icon-service-item-4.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">Outdoor Pest Control</a></h3>
+                                <h3><a href="service-single.php">Outdoor Pest Control</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                      
                         </div>
                         <!-- Service Body End -->
@@ -233,7 +233,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-5.jpg" alt="">
                                 </figure>
@@ -247,11 +247,11 @@
                                 <img src="images/icon-service-item-5.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">mosquito & fly control</a></h3>
+                                <h3><a href="service-single.php">mosquito & fly control</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                       
                         </div>
                         <!-- Service Body End -->
@@ -264,7 +264,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="1s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-6.jpg" alt="">
                                 </figure>
@@ -278,11 +278,11 @@
                                 <img src="images/icon-service-item-6.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">bed bug elimination</a></h3>
+                                <h3><a href="service-single.php">bed bug elimination</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                       
                         </div>
                         <!-- Service Body End -->
@@ -295,7 +295,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="1.2s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-7.jpg" alt="">
                                 </figure>
@@ -309,11 +309,11 @@
                                 <img src="images/icon-service-item-7.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">green pest solutions</a></h3>
+                                <h3><a href="service-single.php">green pest solutions</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                       
                         </div>
                         <!-- Service Body End -->
@@ -326,7 +326,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="service-single.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/service-image-8.jpg" alt="">
                                 </figure>
@@ -340,11 +340,11 @@
                                 <img src="images/icon-service-item-8.svg" alt="">
                             </div>        
                             <div class="service-content">
-                                <h3><a href="service-single.html">preventive pest inspection</a></h3>
+                                <h3><a href="service-single.php">preventive pest inspection</a></h3>
                                 <p>Tailored solutions to protect your home from common pests.</p>
                             </div>
                             <div class="service-btn">
-                                <a href="service-single.html" class="readmore-btn">read More</a>
+                                <a href="service-single.php" class="readmore-btn">read More</a>
                             </div>                       
                         </div>
                         <!-- Service Body End -->

@@ -263,7 +263,7 @@
                         
                         <!-- Passion Button Start -->
                         <div class="passion-button wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">contact us</a>
+                            <a href="contact.php" class="btn-default">contact us</a>
                         </div>
                         <!-- Passion Button End -->
                     </div>
