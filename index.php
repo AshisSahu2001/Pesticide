@@ -3,7 +3,7 @@
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
-    
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
@@ -291,6 +291,7 @@ img {
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Your Shield Against Unwanted Guests</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Reliable pest & bug control services you can trust</h1>
+                            <h3>hiii</h3>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Protect your home and business with our effective pest control solutions. From termites to rodents we eliminate pest quickly & safely.</p>
                         </div>
                         <!-- Section Title End -->
