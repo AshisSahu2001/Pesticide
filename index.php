@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<!-- Page Title -->
-    <title>Petronus - Bugs & Pest Control HTML Template</title>
+    <title>Pest Control Services</title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 	<!-- Google Fonts Css-->
