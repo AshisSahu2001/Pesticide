@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:57 GMT -->
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
     <title>Petronus - Bugs & Pest Control HTML Template</title>
 	<!-- Favicon Icon -->
@@ -78,40 +75,8 @@
     <!-- Topbar Section End -->
 
     <!-- Header Start -->
-	<header class="main-header">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
-						<img src="images/logo.svg" alt="Logo">
-					</a>
-					<!-- Logo End -->
+    <?php include 'includes/header.php'; ?>
 
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>                            
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                          
-                            </ul>
-                        </div>
-
-                        <!-- Header Btn Start -->
-                        <div class="header-btn">
-                            <a href="contact.html" class="btn-default">get a quote</a>
-                        </div>
-                        <!-- Header Btn End -->                 
-					</div>
-					<!-- Main Menu End -->
-					<div class="navbar-toggle"></div>
-				</div>
-			</nav>
-			<div class="responsive-menu"></div>
-		</div>
-	</header>
 	<!-- Header End -->
 
     <!-- Page Header Start -->
@@ -122,12 +87,6 @@
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Contact us</h1>
-                        <nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">contact us</li>
-                            </ol>
-                        </nav>
                     </div>
                     <!-- Page Header Box End -->
                 </div>
@@ -274,7 +233,7 @@
                 <div class="col-lg-12">
                     <!-- Google Map IFrame Start -->
                     <div class="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14969.344977599385!2d85.802361792945!3d20.2863447757677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d626fffc1d%3A0xe19f5ac0b78f8e62!2sNayapalli%2C%20Bhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1760962325823!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Google Map IFrame End -->
                 </div>
@@ -284,106 +243,8 @@
     <!-- Google Map Section End -->
 
     <!-- Main Footer Start -->
-    <footer class="main-footer dark-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <!-- About Footer Start -->
-                    <div class="about-footer footer-links">
-                        <h3>About petronus</h3>
-                        <p>we are dedicated to creating safe, pest-free environments for homes and businesses alike. With years of experience in the pest control industry.</p>
-                        <p>we pride ourselves on delivering effective, eco-friendly solutions tailored to your needs.</p>
-                    </div>
-                    <!-- About Footer End -->
-                </div>
+    <?php include 'includes/footer.php'; ?>
 
-                <div class="col-lg-2 col-md-3">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
-                        <h3>services</h3>
-                        <ul>
-                            <li><a href="about.html">About company</a></li>
-                            <li><a href="services.html">Our services</a></li>
-                            <li><a href="projects.html">Our projects</a></li>
-                            <li><a href="blog.html">Our blogs</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <!-- Footer Links End -->
-                </div>
-                
-                <div class="col-lg-2 col-md-4">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
-                        <h3>Links</h3>
-                        <ul>
-                            <li><a href="projects-single.html">Home Pest Control</a></li>
-                            <li><a href="projects-single.html">Commercial Pest</a></li>
-                            <li><a href="projects-single.html">Termite & Rodent</a></li>
-                            <li><a href="projects-single.html">Eco-Friendly Pest</a></li>
-                            <li><a href="projects-single.html">Wildlife Removal</a></li>
-                        </ul>
-                    </div>
-                    <!-- Footer Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="footer-links">
-                        <h3>contact us</h3>                        
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-contact-item">
-                            <div class="icon-box">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div class="footer-contact-content">
-                                <p><a href="tel:+91123456789">+91 123 456 789</a></p>
-                            </div>
-                        </div>
-                        <!-- Footer Contact Item End -->
-                        
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-contact-item">
-                            <div class="icon-box">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div class="footer-contact-content">
-                                <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
-                            </div>
-                        </div>
-                        <!-- Footer Contact Item End -->
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Footer Copyright Start -->
-                    <div class="footer-copyright">
-                        <!-- Footer Logo Start -->
-                        <div class="footer-logo">
-                            <img src="images/footer-logo.svg" alt="">
-                        </div>
-                        <!-- Footer Logo End -->
-
-                        <!-- Footer Social Links Start -->
-                        <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Links End -->
-
-                        <!-- Footer Copyright Text Start -->
-                        <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
-                        </div>
-                        <!-- Footer Copyright Text End -->                        
-                    </div>
-                    <!-- Footer Copyright End -->
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- Main Footer End -->
 
     <!-- Jquery Library File -->
@@ -419,8 +280,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	<!-- <script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script> -->
 </body>
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:58 GMT -->
 </html>

@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/testimonials.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:54 GMT -->
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
     <title>Petronus - Bugs & Pest Control HTML Template</title>
 	<!-- Favicon Icon -->
@@ -655,8 +652,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	<!-- <script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script> -->
 </body>
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/testimonials.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:55 GMT -->
 </html>

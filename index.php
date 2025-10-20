@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:41 GMT -->
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
     <title>Petronus - Bugs & Pest Control HTML Template</title>
 	<!-- Favicon Icon -->
@@ -34,16 +31,217 @@
 	<link rel="stylesheet" href="css/mousecursor.css">
 	<!-- Main Custom Css -->
 	<link href="css/custom.css" rel="stylesheet" media="screen">
+
+
+    <style>
+        /* Preloader */
+
+.handle-preloader {
+  align-items: center;
+  -webkit-align-items: center;
+  display: flex;
+  display: -ms-flexbox;
+  height: 100%;
+  justify-content: center;
+  -webkit-justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+  background: #1fe829ff;
+}
+
+.preloader-close{
+  position: fixed;
+  z-index: 99999999;
+  font-size: 14px;
+  background: #fff;
+  color: red;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  right: 30px;
+  top: 30px;
+  font-weight: 400;
+}
+
+.handle-preloader .animation-preloader {
+  position: absolute;
+  z-index: 100;
+}
+
+.handle-preloader .animation-preloader .spinner{
+  animation: spinner 1s infinite linear;
+  border-radius: 50%;
+  height: 150px;
+  margin: 0 auto 45px auto;
+  width: 150px;
+}
+
+.handle-preloader .animation-preloader .txt-loading {
+  text-align: center;
+  user-select: none;
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading:before{
+  animation: letters-loading 4s infinite;
+  content: attr(data-text-preloader);
+  left: 0;
+  opacity: 0;
+  top:0;
+  position: absolute;
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading{
+  font-family: var(--title-font);
+  font-weight: 500;
+  letter-spacing: 15px;
+  display: inline-block;
+  position: relative;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.30);
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {animation-delay: 0.4s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(4):before {animation-delay: 0.6s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(5):before {animation-delay: 0.8s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
+.handle-preloader .loader-section {
+  background-color: #ffffff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: calc(50% + 1px);
+}
+
+.preloader .loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading:before{
+  color: #ffffff;
+}
+
+.handle-preloader .animation-preloader .spinner{
+  border: 3px solid #ffffff;
+  border-top-color: rgba(255, 255, 255, 0.5); 
+}
+
+/* AnimaciÃ³n del preloader */
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .handle-preloader .animation-preloader .spinner {
+    height: 8em;
+    width: 8em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .handle-preloader .animation-preloader .spinner {
+    height: 7em;
+    width: 7em;
+  }
+  .handle-preloader .animation-preloader .txt-loading .letters-loading {font-size: 40px; letter-spacing: 10px;}
+}
+
+
+.centred{
+  text-align: center;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+}
+
+.special_fonts{
+  font-family: 'Fredoka', sans-serif;
+}
+
+
+figure{
+  margin: 0px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+}
+
+.row{
+  --bs-gutter-x: 30px;
+}
+    </style>
 </head>
 <body>
 
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
-		</div>
-	</div>
+<div class="loader-wrap">
+  <div class="preloader">
+    <!-- <div class="preloader-close">close</div> -->
+    <div id="handle-preloader" class="handle-preloader">
+      <div class="animation-preloader">
+        <!-- <div class="spinner"></div> -->
+        <div class="txt-loading">
+          <span data-text-preloader="p" class="letters-loading">
+            P
+          </span>
+          <span data-text-preloader="e" class="letters-loading">
+            E
+          </span>
+          <span data-text-preloader="s" class="letters-loading">
+            S
+          </span>
+          <span data-text-preloader="t" class="letters-loading">
+            T
+          </span>
+          <span data-text-preloader="c" class="letters-loading">
+            C
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 	<!-- Preloader End -->
 
     <!-- Topbar Section Start -->
@@ -78,40 +276,7 @@
     <!-- Topbar Section End -->
 
     <!-- Header Start -->
-	<header class="main-header">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
-						<img src="images/logo.svg" alt="Logo">
-					</a>
-					<!-- Logo End -->
-
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                          
-                            </ul>
-                        </div>
-
-                        <!-- Header Btn Start -->
-                        <div class="header-btn">
-                            <a href="contact.html" class="btn-default">get a quote</a>
-                        </div>
-                        <!-- Header Btn End -->                 
-					</div>
-					<!-- Main Menu End -->
-					<div class="navbar-toggle"></div>
-				</div>
-			</nav>
-			<div class="responsive-menu"></div>
-		</div>
-	</header>
+    <?php include 'includes/header.php'; ?>
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
@@ -132,7 +297,7 @@
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
                             <a href="contact.html" class="btn-default btn-highlighted">book a service</a>
-                            <a href="services.html" class="hero-service-btn">View All Services</a>                            
+                            <a href="services.php" class="hero-service-btn">View All Services</a>                            
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -495,238 +660,10 @@
     <!-- Our Services Section End -->
 
     <!-- Our Features Section Start -->
-    <div class="our-features">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="our-features-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">Our Features</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Your trusted partner in pest <span>control excellence</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We understand how frustrating and disruptive pests can be, which is why we're committed to providing fast, reliable, and effective solutions. With a team of certified experts, eco-friendly methods, and unmatched customer care.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Our Features List Start -->
-                        <div class="our-features-list">
-                            <!-- Features Item Start -->
-                            <div class="features-item wow fadeInUp">
-                                <div class="icon-box">
-                                    <img src="images/icon-features-item-1.svg" alt="">
-                                </div>
-                                <div class="features-item-content">
-                                    <h3>Emergency Services</h3>
-                                    <p>We are available round the clock to address.</p>
-                                </div>
-                            </div>
-                            <!-- Features Item End -->
-
-                            <!-- Features Item Start -->
-                            <div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="icon-box">
-                                    <img src="images/icon-features-item-2.svg" alt="">
-                                </div>
-                                <div class="features-item-content">
-                                    <h3>Customized Treatment</h3>
-                                    <p>Every property is unique, so we offer personalized pest.</p>
-                                </div>
-                            </div>
-                            <!-- Features Item End -->
-
-                            <!-- Features Item Start -->
-                            <div class="features-item wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon-box">
-                                    <img src="images/icon-features-item-3.svg" alt="">
-                                </div>
-                                <div class="features-item-content">
-                                    <h3>Certified Professionals</h3>
-                                    <p>Our team is fully trained, certified, and experienced.</p>
-                                </div>
-                            </div>
-                            <!-- Features Item End -->
-
-                            <!-- Features Item Start -->
-                            <div class="features-item wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon-box">
-                                    <img src="images/icon-features-item-4.svg" alt="">
-                                </div>
-                                <div class="features-item-content">
-                                    <h3>Guaranteed Results</h3>
-                                    <p>We stand behind our service with a satisfaction guarante.</p>
-                                </div>
-                            </div>
-                            <!-- Features Item End -->
-                        </div>
-                        <!-- Our Features List End -->
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Features Image Start -->
-                    <div class="features-image">
-                        <figure class="image-anime reveal">
-                            <img src="images/features-image.jpg" alt="">
-                        </figure>
-
-                        <!-- Contact Us Circle Start -->
-                        <div class="contact-us-circle">
-                            <a href="contact.html">
-                                <img src="images/contact-us-circle.svg" alt="">
-                            </a>
-                        </div>
-                        <!-- Contact Us Circle End -->
-                    </div>
-                    <!-- Features Image End -->
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Our Features Section End -->
 
-    <!-- Our Projects Section Start -->
-    <div class="our-project light-bg-section">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">Our Portfolio</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Explore our proven track record of <span>pest-free solutions</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-					<!-- Choose Our Projects Nav start -->
-					<div class="our-project-nav wow fadeInUp" data-wow-delay="0.25s">
-						<ul>
-							<li><a href="#" class="active-btn" data-filter="*">all</a></li>
-							<li><a href="#" data-filter=".home">Home Pest</a></li>
-							<li><a href="#" data-filter=".commercial">Commercial Pest</a></li>
-							<li><a href="#" data-filter=".eco-friendly">Eco-Friendly Pest</a></li>
-							<li><a href="#" data-filter=".termite">Termite & Rodent</a></li>
-                            <li><a href="#" data-filter=".outdoor">Outdoor Pest</a></li>
-						</ul>
-					</div>
-					<!-- Choose Our Projects Nav End -->
-				</div>
-
-                <div class="col-lg-12">
-					<!-- Project Item Boxes start -->
-					<div class="row project-item-boxes align-items-center">
-						<div class="col-lg-4 col-md-6 project-item-box eco-friendly">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Home Sweet Home Pest Protection</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box termite">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-2.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Non-Toxic Insect Repellents Methods</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box outdoor">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-3.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Indoor Pest Prevention Techniques</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box commercial">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-4.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Pest Control Using Nanotechnology</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box home">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.8s">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-5.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Chemical-Free Mosquito Management</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box home">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="1s">
-                                <div class="project-image">
-                                    <figure>
-                                        <img src="images/project-6.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="project-content">
-                                    <h3>Biorational Pest Control Approaches</h3>
-                                    <a href="project-single.html"><img src="images/arrow-white.svg" alt=""></a>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-                    </div>
-                    <!-- Project Item Boxes End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Our Project Button Start -->
-                    <div class="our-project-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="projects.html" class="btn-default">View All Projects</a>
-                    </div>
-                    <!-- Our Project Button End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Projects Section End -->
      
     <!-- Why Choose Us Section Start -->
     <div class="why-choose-us light-bg-section">
@@ -822,135 +759,7 @@
     </div>
     <!-- Why Choose Us Section End -->
 
-    <!-- Our Faqs Section Start -->
-    <div class="our-faqs dark-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Our Faqs Images Start -->
-                    <div class="our-faqs-images">
-                        <!-- Faqs Image 1 Start -->
-                        <div class="faqs-img-1">
-                            <figure class="image-anime reveal">
-                                <img src="images/faqs-img-1.jpg" alt="">
-                            </figure>     
-                        </div>
-                        <!-- Faqs Image 1 End -->
 
-                        <!-- Faqs Image 2 Start -->
-                        <div class="faqs-img-2">
-                            <figure class="image-anime reveal">
-                                <img src="images/faqs-img-2.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Faqs Image 2 End -->
-                         
-                        <!-- Faqs Image 3 Start -->
-                        <div class="faqs-img-3">
-                            <figure class="image-anime reveal">
-                                <img src="images/faqs-img-3.jpg" alt="">
-                            </figure>     
-                        </div>
-                        <!-- Faqs Image 3 End -->
-                    </div>
-                    <!-- Our Faqs Images End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Our Faqs Content Start -->
-                    <div class="our-faqs-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">frequently asked questions</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Find helpful answers to your pest <span>control concerns</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- FAQ Accordion Start -->
-                        <div class="faq-accordion" id="accordion">
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp">
-                                <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                        1. What types of pests do you treat?
-                                    </button>
-                                </h2>
-                                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We handle a wide range of pests, including rodents, ants, cockroaches, termites, bed bugs, mosquitoes, spiders, and wildlife.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        2. Are your pest control methods safe for my pets?
-                                    </button>
-                                </h2>
-                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We handle a wide range of pests, including rodents, ants, cockroaches, termites, bed bugs, mosquitoes, spiders, and wildlife.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        3. How often should I schedule pest control services?
-                                    </button>
-                                </h2>
-                                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We handle a wide range of pests, including rodents, ants, cockroaches, termites, bed bugs, mosquitoes, spiders, and wildlife.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        4. Do you offer emergency pest control services?
-                                    </button>
-                                </h2>
-                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We handle a wide range of pests, including rodents, ants, cockroaches, termites, bed bugs, mosquitoes, spiders, and wildlife.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                                <h2 class="accordion-header" id="heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        5. How do I know if I have a pest infestation?
-                                    </button>
-                                </h2>
-                                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We handle a wide range of pests, including rodents, ants, cockroaches, termites, bed bugs, mosquitoes, spiders, and wildlife.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-                        </div>
-                        <!-- FAQ Accordion End -->
-                    </div>
-                    <!-- Our Faqs Content End -->
-                </div>               
-            </div>
-        </div>
-    </div>
-    <!-- Our Faqs Section End -->
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
@@ -1127,7 +936,7 @@
                         
                         <!-- Cta Button Start -->
                         <div class="cta-btn wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="contact.html" class="btn-default btn-highlighted">Get Membership</a>
+                            <a href="contact.html" class="btn-default btn-highlighted">Call Now</a>
                         </div>
                         <!-- Cta Button End -->
                     </div>
@@ -1138,97 +947,9 @@
     </div>
     <!-- CTA Box Section End -->
 
-    <!-- Our Blog Section Start -->
-
-    <!-- Our Blog Section End -->
-
     <!-- Main Footer Start -->
-    <footer class="main-footer dark-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <!-- About Footer Start -->
-                    <div class="about-footer footer-links">
-                        <h3>About petronus</h3>
-                        <p>we are dedicated to creating safe, pest-free environments for homes and businesses alike. With years of experience in the pest control industry.</p>
-                        <p>we pride ourselves on delivering effective, eco-friendly solutions tailored to your needs.</p>
-                    </div>
-                    <!-- About Footer End -->
-                </div>
-
-                <div class="col-lg-2 col-md-3">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
-                        <h3>services</h3>
-                        <ul>
-                            <li><a href="about.html">About company</a></li>
-                            <li><a href="services.html">Our services</a></li>
-                            <li><a href="projects.html">Our projects</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <!-- Footer Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="footer-links">
-                        <h3>contact us</h3>                        
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-contact-item">
-                            <div class="icon-box">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div class="footer-contact-content">
-                                <p><a href="tel:+91123456789">+91 123 456 789</a></p>
-                            </div>
-                        </div>
-                        <!-- Footer Contact Item End -->
-                        
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-contact-item">
-                            <div class="icon-box">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div class="footer-contact-content">
-                                <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
-                            </div>
-                        </div>
-                        <!-- Footer Contact Item End -->
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Footer Copyright Start -->
-                    <div class="footer-copyright">
-                        <!-- Footer Logo Start -->
-                        <div class="footer-logo">
-                            <img src="images/footer-logo.svg" alt="">
-                        </div>
-                        <!-- Footer Logo End -->
-
-                        <!-- Footer Social Links Start -->
-                        <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Links End -->
-
-                        <!-- Footer Copyright Text Start -->
-                        <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
-                        </div>
-                        <!-- Footer Copyright Text End -->                        
-                    </div>
-                    <!-- Footer Copyright End -->
-                </div>
-            </div>
-        </div>
-    </footer>
+      <?php include 'includes/footer.php'; ?>
     <!-- Main Footer End -->
-
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -1262,8 +983,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	<!-- <script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script> -->
 </body>
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:48 GMT -->
 </html>

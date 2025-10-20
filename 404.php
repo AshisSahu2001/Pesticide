@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/team-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:54 GMT -->
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
     <title>Petronus - Bugs & Pest Control HTML Template</title>
 	<!-- Favicon Icon -->
@@ -144,12 +141,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Marvin mcKinney</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Page not found</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">home</a></li>
-                                <li class="breadcrumb-item"><a href="team.html">team</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">marvin mcKinney</li>
+                                <li class="breadcrumb-item active" aria-current="page">404 error page</li>
                             </ol>
                         </nav>
                     </div>
@@ -160,193 +156,29 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- Page Team Single Start -->
-    <div class="page-team-single">
+    <!-- error section start -->
+    <div class="error-page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Team Single Box Start -->
-				    <div class="page-team-single-box">
-                        <!-- Team Member Info Box Start -->
-                        <div class="team-member-info-box">
-                            <!-- Team Member Image Start -->
-                            <div class="team-member-image">
-                                <figure class="image-anime reveal">
-                                    <img src="images/team-2.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Team Member Image End -->
-
-                            <!-- Team Member Content Start -->
-                            <div class="team-member-content">
-                                <!-- Member Content Header Start -->
-                                <div class="section-title">
-                                    <h2 class="wow fadeInUp" data-cursor="-opaque">About <span>me</span></h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Marvin McKinney is the CEO of Petronus, bringing over 10 years of experience in the pest control industry. She is dedicated to driving the company's vision of providing eco-friendly and effective pest management solutions. Her leadership and strategic insights have played.</p>
-                                </div>
-                                <!-- Member Content Header End -->
-
-                                <!-- Member Info List Start -->
-                                <div class="member-info-list wow fadeInUp" data-wow-delay="0.4s">
-                                    <ul>
-                                        <li>Phone : <span>+1 (234) 567 489</span></li>
-                                        <li>Email: <span>info@domain.com</span></li>
-                                        <li>Position: <span>CEO & Founder</span></li>
-                                        <li>Address: <span>Greenway Avenue USA</span></li>
-                                    </ul>
-                                </div>
-                                <!-- Member Info List End -->                                   
-
-                                <!-- Member Social List Start -->
-                                <div class="member-social-list wow fadeInUp" data-wow-delay="0.6s">
-                                    <ul>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                    								
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <!-- Member Social List End -->                               
-                            </div>
-                            <!-- Team Member Content End -->
-                        </div>
-                        <!-- Team Member Info Box End -->
-
-                        <!-- Team Member About Start -->
-                        <div class="team-member-about">
-                            <!-- Section Title Start -->
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Personals info</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s">Marvin McKinney has over 15 years of experience in the pest control industry, specializing in residential and commercial pest management. He holds multiple certifications in pest control and is highly knowledgeable about the latest treatment methods and eco-friendly solutions. John's attention to detail and commitment to customer satisfaction have earned him a reputation for excellence. He takes the time to thoroughly assess each situation</p>
-
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">Explain the treatment process, and ensure that customers feel comfortable and informed. When he's not working, John enjoys hiking and spending time with his family known for her friendly demeanor and ability to put customers at ease while solving even the toughest pest problems.</p>
-                            </div>
-                            <!-- Section Title End -->                            
-                        </div> 
-                        <!-- Team Member About End -->
-
-                        <!-- Team Member Skill Box Start -->
-                        <div class="team-member-Skill-box">
-                            <div class="team-member-Skill-capability">
-                                <div class="team-member-skill-content">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Professional <span>skills</span></h2>
-                                    </div>
-                                    <!-- Section Title End -->
-
-                                    <!-- Team Skills List Start -->
-                                    <div class="team-skills-list">
-                                        <!-- Skills Progress Bar Start -->
-                                        <div class="skills-progress-bar">
-                                            <!-- Skill Item Start -->
-                                            <div class="skillbar" data-percent="85%">
-                                                <div class="skill-data">
-                                                    <div class="skill-title">Chemical Handling :</div>
-                                                    <div class="skill-no">85%</div>
-                                                </div>
-                                                <div class="skill-progress">
-                                                    <div class="count-bar"></div>
-                                                </div>
-                                            </div>
-                                            <!-- Skill Item End -->
-                                        </div>
-                                        <!-- Skills Progress Bar End -->
-
-                                        <!-- Skills Progress Bar Start -->
-                                        <div class="skills-progress-bar">
-                                            <!-- Skill Item Start -->
-                                            <div class="skillbar" data-percent="95%">
-                                                <div class="skill-data">
-                                                    <div class="skill-title">IPM Techniques :</div>
-                                                    <div class="skill-no">95%</div>
-                                                </div>
-                                                <div class="skill-progress">
-                                                    <div class="count-bar"></div>
-                                                </div>
-                                            </div>
-                                            <!-- Skill Item End -->
-                                        </div>
-                                        <!-- Skills Progress Bar End -->
-                                    </div>
-                                    <!-- Team Skills List End -->
-                                </div>
-
-                                <!-- Member Capability Content Start -->
-                                <div class="member-capability-content">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Capabilities</h2>
-                                    </div>
-                                    <!-- Section Title End -->
-
-                                    <ul class="wow fadeInUp" data-wow-delay="0.2s">
-                                        <li>Advanced Pest Control Solutions for Every Need</li>
-                                        <li>Eco-Friendly Approaches to Effective Pest Management</li>
-                                        <li>Tailored Services for Residential and Commercial Properties</li>
-                                    </ul>
-                                </div>
-                                <!-- Member Capability Content End -->
-                            </div>
-
-                            <!-- Team Contact Form Start -->
-                            <div class="team-contact-form">
-                                <!-- Section Title Start -->
-                                <div class="section-title">
-                                    <h2 class="text-anime-style-2" data-cursor="-opaque">Contact <span>me</span></h2>
-                                </div>
-                                <!-- Section Title End -->
-
-                                <!-- Contact Form Start -->
-                                <div class="contact-form">
-                                    <!-- Contact Form Start -->
-                                    <form id="contactForm" action="#" method="POST" data-toggle="validator" class="contact-form wow fadeInUp">
-                                        <div class="row">
-                                            <div class="form-group col-md-6 mb-4">
-                                                <input type="text" name="fname" class="form-control" id="fname" placeholder="First name" required>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-        
-                                            <div class="form-group col-md-6 mb-4">
-                                                <input type="text" name="lname" class="form-control" id="lname" placeholder="Last name" required>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-        
-                                            <div class="form-group col-md-6 mb-4">
-                                                <input type="email" name ="email" class="form-control" id="email" placeholder="E-mail" required>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-        
-                                            <div class="form-group col-md-6 mb-4">
-                                                <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone no." required>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-        
-                                            <div class="form-group col-md-12 mb-5">
-                                                <textarea name="message" class="form-control" id="message" rows="4" placeholder="Message"></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-        
-                                            <div class="col-md-12">
-                                                <button type="submit" class="btn-default"><span>send message</span></button>
-                                                <div id="msgSubmit" class="h3 hidden"></div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!-- Contact Form End -->
-                                </div>
-                                <!-- Contact Form End -->
-                            </div>
-                            <!-- Team Contact Form End -->
-                        </div>
-                        <!-- Team Member Skill Box End -->
+                    <div class="error-page-image wow fadeInUp">
+                        <img src="images/404-error-img.png" alt="">
                     </div>
-                    <!-- Page Team Single Box End -->
+                    <div class="error-page-content">
+                        <div class="section-title">
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Oops!</span> page not found</h2>
+                        </div>
+                        <div class="error-page-content-body">
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">The page you are looking for does not exist.</p>
+                            <a class="btn-default wow fadeInUp" data-wow-delay="0.4s" href="index.html">back to home</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Team Single End -->
+    <!-- error section end -->
+
 
     <!-- Main Footer Start -->
     <footer class="main-footer dark-section">
@@ -484,8 +316,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	<!-- <script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script> -->
 </body>
-
-<!-- Mirrored from html.awaikenthemes.com/petronus/team-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 15:04:54 GMT -->
 </html>
